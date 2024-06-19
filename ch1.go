@@ -27,3 +27,8 @@ func echo2() {
 	}
 	println()
 }
+
+// 1.3
+func echo3() {
+	// todo
+}
