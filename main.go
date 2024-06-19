@@ -6,4 +6,5 @@ func main() {
 	echo2()
 	echo3()
 	dup()
+	dup1()
 }
