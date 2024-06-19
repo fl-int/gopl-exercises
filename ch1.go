@@ -6,12 +6,24 @@ import (
 	"strings"
 )
 
-func echo3() {
-	fmt.Println("Printing command line arguments:")
+func echo0() {
+	fmt.Println("echo0:")
 	fmt.Println(strings.Join(os.Args[1:], " "))
+	println()
 }
 
-func echo4() {
-	fmt.Println("Printing command line arguments:")
+// 1.1
+func echo1() {
+	fmt.Println("echo1:")
 	fmt.Println(strings.Join(os.Args[:], " "))
+	println()
+}
+
+// 1.2
+func echo2() {
+	fmt.Println("echo2:")
+	for i, v := range os.Args {
+		fmt.Printf("%d:%s\n", i, v)
+	}
+	println()
 }

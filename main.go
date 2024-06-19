@@ -1,5 +1,7 @@
 package main
 
 func main() {
-	echo3()
+	echo0()
+	echo1()
+	echo2()
 }
