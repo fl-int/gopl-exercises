@@ -9,5 +9,5 @@ func main() {
 	// echo3()
 	// dup()
 	// dup1()
-	lissajous(os.Stdout)
+	lissajous1(os.Stdout)
 }
