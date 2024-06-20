@@ -1,6 +1,7 @@
 package main
 
 import "os"
+import "gopl-exercises/ch1"
 
 func main() {
 	// echo()
@@ -9,5 +10,5 @@ func main() {
 	// echo3()
 	// dup()
 	// dup1()
-	lissajous2(os.Stdout)
+	ch1.Lissajous2(os.Stdout)
 }
