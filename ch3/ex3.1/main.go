@@ -30,10 +30,10 @@ func main() {
 				continue
 			}
 
-			fmt.Printf("<polygon points='%g,%g %g,%g %g,%g,%g,%g'/>\n",
-				ax, ay, bx, by, cx, cy, dx, dy)
+			fmt.Printf("<polygon points='%g,%g %g,%g %g,%g,%g,%g'/>\n", ax, ay, bx, by, cx, cy, dx, dy)
 		}
 	}
+
 	fmt.Printf("</svg>\n")
 }
 
